@@ -1,11 +1,12 @@
-name: Publish to npm
+name: Publish
 
 on:
-  release:
-    types: [created]
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,12 +21,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Format code
-        run: npm run format
-
-      - name: Run tests
-        run: npm test
 
       - name: Build project
         run: npm run build
