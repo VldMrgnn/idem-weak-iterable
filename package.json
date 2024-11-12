@@ -1,13 +1,14 @@
 {
   "name": "idem-weak-iterable",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "An idempotent WeakMap with iterable capabilities.",
   "main": "idem-weak-iterable.js",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "jest",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
