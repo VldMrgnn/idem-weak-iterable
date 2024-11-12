@@ -1,6 +1,6 @@
 {
   "name": "idem-weak-iterable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An idempotent WeakMap with iterable capabilities.",
   "main": "dist/idem-weak-iterable.js",
   "module": "dist/idem-weak-iterable.esm.js",
