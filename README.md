@@ -1,4 +1,3 @@
-
 # IdemWeakMapIterable
 
 `IdemWeakMapIterable` is a JavaScript utility for creating a WeakMap-like structure that ensures idempotent operations, providing set, get, delete, and has functionality with additional support for weak references and handling multiple values for the same key. This library is perfect for managing collections of weakly referenced objects where changes should not duplicate or modify the state unnecessarily.
@@ -133,6 +132,7 @@ for (const value of map.values()) {
 We use Jest for testing the functionality of this library. To run the tests, follow these steps:
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```

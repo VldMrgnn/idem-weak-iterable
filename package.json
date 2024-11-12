@@ -1,13 +1,13 @@
 {
   "name": "idem-weak-iterable",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An idempotent WeakMap with iterable capabilities.",
   "main": "dist/idem-weak-iterable.js",
   "module": "dist/idem-weak-iterable.esm.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && tsc && tsc --project tsconfig.esm.json",
-    "prepublishOnly": "npm run build",
     "test": "jest",
     "format": "prettier --write .",
     "publish": "npm publish"
