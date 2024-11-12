@@ -4,7 +4,13 @@
     "module": "CommonJS",
     "declaration": true,
     "outDir": "./dist",
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2015", "DOM"],
+    "moduleResolution": "node"
   },
-  "include": ["idem-weak-iterable.ts"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }
