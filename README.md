@@ -20,13 +20,13 @@ I created this library because I needed to iterate over a WeakMap that supports 
 You can install the library using npm or yarn:
 
 ```bash
-npm install idem-weak-map-iterable
+npm install idem-weak-iterable
 ```
 
 or
 
 ```bash
-yarn add idem-weak-map-iterable
+yarn add idem-weak-iterable
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ yarn add idem-weak-map-iterable
 ### Create an `IdemWeakMapIterable` instance
 
 ```javascript
-import IdemWeakMapIterable from 'idem-weak-map-iterable';
+import IdemWeakMapIterable from 'idem-weak-iterable';
 
 // Create a new IdemWeakMapIterable instance
 const map = IdemWeakMapIterable();
